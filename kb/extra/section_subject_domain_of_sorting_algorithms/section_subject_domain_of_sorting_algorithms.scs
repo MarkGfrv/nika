@@ -1,0 +1,33 @@
+section_subject_domain_of_sorting_algorithms
+=> nrel_main_idtf:
+   [Раздел. Предметная область алгоритмов сортировки] (* <- lang_ru;; *);
+   [Section. Subject domain of sorting algorithms] (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_sorting_algorithms = [*
+   subject_domain_of_sorting_algorithms
+   <- sc_node_struct;
+   => nrel_main_idtf:
+      [Предметная область алгоритмов сортировки] (* <- lang_ru;; *);
+      [Subject domain of sorting algorithms] (* <- lang_en;; *);
+   <- subject_domain;
+   -> rrel_maximum_studied_object_class: concept_sorting_algoritm;
+   -> rrel_not_maximum_studied_object_class:
+      concept_comparison_based_sorting_algorithm;
+      concept_non_comparison_based_sorting_algorithm;
+      concept_bubble_sort;
+      concept_coctail_sort;
+      concept_selection_sort;
+      concept_heap_sort;
+      concept_insertion_sort;
+      concept_shell_sort;
+      concept_quicksort;
+      concept_counting_sort;
+      concept_bucket_sort;
+      concept_radix_sort;
+   -> rrel_explored_relation:
+      nrel_basis;
+      nrel_time_complexity;
+      nrel_creation_date;
+      nrel_original_source;;
+*];;

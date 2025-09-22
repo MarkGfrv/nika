@@ -1,0 +1,31 @@
+concept_counting_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Сортировка подсчётом] (* <- lang_ru;; *);
+   [Counting-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1954];
+=>nrel_time_complexity:[O(n+k)];
+=>nrel_basis: concept_radix_sort;
+=>nrel_original_source: [Information Sorting in the Application of Electronic Digital Computers to Business Operations];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Сортировка подсчётом)]
+      (* <- lang_ru;; *);
+      [Def. (Counting-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Сортировка подсчётом - это алгоритм сортировки, в котором используется диапазон чисел сортируемого массива для подсчёта совпадающих элементов]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Counting sort is a sorting algorithm that uses a range of numbers in the array being sorted to count matching elements]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

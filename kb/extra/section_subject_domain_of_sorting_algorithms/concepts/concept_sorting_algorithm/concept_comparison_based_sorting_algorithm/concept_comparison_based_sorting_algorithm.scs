@@ -1,0 +1,36 @@
+concept_comparison_based_sorting_algorithm
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Алгоритм сортировки на основе сравнения] (* <- lang_ru;; *);
+   [Comparison-based sorting algorithm] (* <- lang_en;; *);
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Алгоритм сортировки на основе сравнения)] (* <- lang_ru;; *);
+      [Def. (Comparison-based sorting algorithm)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки на основе сравнения - алгоритмы сортировки, которые, для определения правильного порядка элементов, сравнивают их попарно]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Comparison-based sorting algorithm is a sorting algorithm, which compares elements in pairs to determine their correct order]
+         (* <- lang_en;; *);;
+      *);;
+   *);
+<= nrel_subdividing:
+   {
+   concept_bubble_sort;
+   concept_coctail_sort;
+   concept_heap_sort;
+   concept_insertion_sort;
+   concept_quicksort;
+   concept_selection_sort;
+   concept_shell_sort
+   };;

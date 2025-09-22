@@ -1,0 +1,13 @@
+Zuse
+=> nrel_main_idtf:
+   [Конрад Цузе] (* <- lang_ru;; *);
+   [Konrad Zuse] (* <- lang_en;; *);
+<=nrel_author: concept_insertion_sort;
+=>nrel_birth_year: [1910];
+=>nrel_death_year: [1995];
+=>nrel_place_of_birth: Berlin
+   (*
+      => nrel_main_idtf: 
+      [Берлин, Германия] (* <- lang_ru;; *);
+      [Berlin, Germany] (* <- lang_en;; *);;
+   *);;

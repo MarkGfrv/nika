@@ -1,0 +1,30 @@
+concept_bubble_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Пузырьковая сортировка] (* <- lang_ru;; *);
+   [Bubble-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1962];
+=>nrel_time_complexity:[O(n^2)];
+=>nrel_basis: concept_coctail_sort;
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Пузырьковая сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Bubble-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки, который многократно проходит по коллекции, сравнивая соседние элемненты и меняя их местами в случае неверного порядка следования]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [A sorting algorithm that iterates through a collection, comparing adjacent elements and swapping them if they are in the wrong order.]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

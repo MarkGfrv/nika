@@ -1,0 +1,13 @@
+Hoare
+=> nrel_main_idtf:
+   [Дональд Шелл] (* <- lang_ru;; *);
+   [Donald Shell] (* <- lang_en;; *);
+<=nrel_author: concept_shell_sort;
+=>nrel_birth_year: [1924];
+=>nrel_death_year: [2015];
+=>nrel_place_of_birth: Michigan
+   (*
+      => nrel_main_idtf: 
+      [Мичиган, США] (* <- lang_ru;; *);
+      [Michigan, USA] (* <- lang_en;; *);;
+   *);;

@@ -1,0 +1,31 @@
+concept_selection_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Сортировка выбором] (* <- lang_ru;; *);
+   [Selection-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1997];
+=>nrel_time_complexity:[O(n^2)];
+=>nrel_basis: concept_heap_sort;
+=>nrel_original_source: [Theory and Techniques for the Design of Electronic Digital Computers];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Сортировка выбором)]
+      (* <- lang_ru;; *);
+      [Def. (Selection-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки, который ищет максимальный (или минимальный) элемент в неотсортированной части и дополняет им отсортированную]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [A sorting algorithm that finds the maximum (or minimum) element in an unsorted list and adds it to the sorted list]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

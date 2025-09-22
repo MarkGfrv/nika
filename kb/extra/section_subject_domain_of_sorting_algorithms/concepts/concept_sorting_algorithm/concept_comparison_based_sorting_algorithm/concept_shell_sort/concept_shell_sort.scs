@@ -1,0 +1,30 @@
+concept_shell_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Сортировка Шелла] (* <- lang_ru;; *);
+   [Shell-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1959];
+=>nrel_time_complexity:[O((nlog(n))^2)];
+=>nrel_original_source: [A High-Speed Sorting Procedure];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Сортировка Шелла)]
+      (* <- lang_ru;; *);
+      [Def. (Shell-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Улучшенная версия алгоритма вставками, которые сортирует не только соседние элементы, но и элементы, находящиеся на некотором расстоянии друг от друга]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [An improved version of the insertion algorithm that sorts not only adjacent elements, but also elements that are some distance apart]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

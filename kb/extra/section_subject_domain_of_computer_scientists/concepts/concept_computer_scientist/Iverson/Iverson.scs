@@ -1,0 +1,13 @@
+Iverson
+=> nrel_main_idtf:
+   [Кеннет Юджин Айверсон] (* <- lang_ru;; *);
+   [Kenneth Eugene Iverson] (* <- lang_en;; *);
+<=nrel_author: concept_bubble_sort;
+=>nrel_birth_year: [1920];
+=>nrel_death_year: [2004];
+=>nrel_place_of_birth: Canada
+   (*
+      => nrel_main_idtf: 
+      [Канада, США] (* <- lang_ru;; *);
+      [Canada, USA] (* <- lang_en;; *);;
+   *);;

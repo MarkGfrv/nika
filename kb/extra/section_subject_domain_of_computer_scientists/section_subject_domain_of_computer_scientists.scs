@@ -1,0 +1,29 @@
+section_subject_domain_of_computer_scientists
+=> nrel_main_idtf:
+   [Раздел. Специалисты компьютерных технологий] (* <- lang_ru;; *);
+   [Section. Computer scientists] (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_computer_scientists = [*
+   subject_domain_of_computer_scientists
+   <- sc_node_struct;
+   => nrel_main_idtf:
+      [Специалисты компьютерных технологий] (* <- lang_ru;; *);
+      [Computer scientists] (* <- lang_en;; *);
+   <- subject_domain;
+   -> rrel_maximum_studied_object_class: concept_computer_scientist;
+   -> rrel_not_maximum_studied_object_class:
+      Iverson;
+      Knuth;
+      Williams;
+      Zuse;
+      Shell;
+      Hoare;
+      Seward;
+      Hollerith;
+   -> rrel_explored_relation:
+      nrel_author;
+      nrel_place_of_birth;
+      nrel_birth_year;
+      nrel_death_year;;
+*];;

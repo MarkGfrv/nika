@@ -1,0 +1,32 @@
+concept_non_comparison_based_sorting_algorithm
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Алгоритм сортировки, не основанный на сравнении] (* <- lang_ru;; *);
+   [Non-comparison-based sorting algorithms] (* <- lang_en;; *);
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Алгоритм сортировки, не основанный на сравнении)] (* <- lang_ru;; *);
+      [Def. (Non-comparison-based sorting algorithms)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки, не основанные на сравнении - алгоритмы сортировки, которые не сравнивают элементв коллекции между собой]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Non-comparison-based sorting algorithm is a sorting algorithm, which doesn't compare elemants of a collection among themselves]
+         (* <- lang_en;; *);;
+      *);;
+   *);
+<= nrel_subdividing:
+   {
+   concept_bucket_sort;
+   concept_counting_sort;
+   concept_radix_sort
+   };;

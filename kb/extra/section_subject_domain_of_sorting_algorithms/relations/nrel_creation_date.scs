@@ -1,0 +1,52 @@
+nrel_creation_date
+<- sc_node_non_role_relation;
+=> nrel_main_idtf:
+	[год упоминания*]
+	(* <- lang_ru;; *);
+	[creation date*]
+	(* <- lang_en;; *);
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_first_domain: concept_sorting_algorithm;
+=> nrel_second_domain: sc_link;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			concept_sorting_algorithm;
+			sc_link
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+    	[Опр. (год упоминания*)]
+    	(* <- lang_ru;; *);
+    	[Def. (creation date*)]
+    	(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Год упоминания* - бинарное отношение, связывающее алгоритм сортировки с годом его первого упоминания.]
+			(* <- lang_ru;;	*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+	  		[Creation date* is a binary relation that links the sorting algorithm with the year of its first mention.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+        {
+            binary_relation;
+            concept_sorting_algoritm
+        };;
+    *);;

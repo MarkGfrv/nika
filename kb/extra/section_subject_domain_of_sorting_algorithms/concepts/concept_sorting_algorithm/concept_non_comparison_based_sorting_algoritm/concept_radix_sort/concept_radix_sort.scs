@@ -1,0 +1,29 @@
+concept_radix_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Поразрядная сортировка] (* <- lang_ru;; *);
+   [Radix-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1887];
+=>nrel_time_complexity:[O(nk)];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Поразрядная сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Radix-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Поразрядная сортировка - это алгоритм сортировки, который сортирует данные поразрядно, начиная с наименее значимого или наиболее значимого разряда]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Radix sort is a sorting algorithm that sorts data radix-wise, starting from the least significant digit or the most significant digit]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

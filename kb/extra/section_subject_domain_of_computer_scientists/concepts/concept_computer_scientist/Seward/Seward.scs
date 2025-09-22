@@ -1,0 +1,14 @@
+Seward
+=> nrel_main_idtf:
+   [Гарольд Сьард] (* <- lang_ru;; *);
+   [Harold Herbert Seward] (* <- lang_en;; *);
+<=nrel_author: concept_counting_sort;
+<=nrel_author: concept_bucket_sort;
+=>nrel_birth_year: [1930];
+=>nrel_death_year: [2012];
+=>nrel_place_of_birth: Vermont
+   (*
+      => nrel_main_idtf: 
+      [Вермонт, США] (* <- lang_ru;; *);
+      [Vermont, USA] (* <- lang_en;; *);;
+   *);;

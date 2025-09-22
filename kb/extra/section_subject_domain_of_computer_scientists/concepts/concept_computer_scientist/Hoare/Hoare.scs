@@ -1,0 +1,12 @@
+Hoare
+=> nrel_main_idtf:
+   [Тони Хоар] (* <- lang_ru;; *);
+   [Tony Hoare] (* <- lang_en;; *);
+<=nrel_author: concept_quicksort;
+=>nrel_birth_year: [1934];
+=>nrel_place_of_birth: Canada
+   (*
+      => nrel_main_idtf: 
+      [Канада, США] (* <- lang_ru;; *);
+      [Canada, USA] (* <- lang_en;; *);;
+   *);;

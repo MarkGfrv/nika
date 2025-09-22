@@ -1,0 +1,29 @@
+concept_coctail_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Коктейльная сортировка] (* <- lang_ru;; *);
+   [Coctail-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1940];
+=>nrel_time_complexity:[O(n^2)];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Коктейльная сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Coctail-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Оптимизированный алгоритм пузырьковой сортировки, при котором проходы по коллекции осуществлются в обе стороны]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [An optimized bubble sort algorithm that iterates through the collection in both directions]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

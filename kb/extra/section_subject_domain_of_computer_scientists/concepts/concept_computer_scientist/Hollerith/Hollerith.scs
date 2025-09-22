@@ -1,0 +1,13 @@
+Hollerith
+=> nrel_main_idtf:
+   [Герман Холлерит] (* <- lang_ru;; *);
+   [Herman Hollerith] (* <- lang_en;; *);
+<=nrel_author: concept_radix_sort;
+=>nrel_birth_year: [1860];
+=>nrel_death_year: [1929];
+=>nrel_place_of_birth: new_york
+   (*
+      => nrel_main_idtf: 
+      [Нью-Йорк, США] (* <- lang_ru;; *);
+      [New-York, USA] (* <- lang_en;; *);;
+   *);;

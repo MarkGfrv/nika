@@ -1,0 +1,52 @@
+nrel_time_complexity
+<- sc_node_non_role_relation;
+=> nrel_main_idtf:
+	[временная сложность*]
+	(* <- lang_ru;; *);
+	[time complexity*]
+	(* <- lang_en;; *);
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_first_domain: concept_sorting_algorithm;
+=> nrel_second_domain: sc_link;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			concept_sorting_algorithm;
+			sc_link
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+    	[Опр. (временная сложность*)]
+    	(* <- lang_ru;; *);
+    	[Def. (time complexity*)]
+    	(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Временная сложность* — это оценка количества операций, необходимых для выполнения алгоритма в зависимости от размера входных данных]
+			(* <- lang_ru;;	*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+	  		[Time complexity* is an estimate of the number of operations required to execute an algorithm depending on the size of the input data]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+        {
+            binary_relation;
+            concept_sorting_algoritm
+        };;
+    *);;

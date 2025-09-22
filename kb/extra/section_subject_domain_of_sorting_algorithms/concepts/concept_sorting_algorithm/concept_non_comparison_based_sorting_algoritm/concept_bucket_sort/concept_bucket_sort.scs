@@ -1,0 +1,29 @@
+concept_bucket_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Блочная сортировка] (* <- lang_ru;; *);
+   [Bucket-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1954];
+=>nrel_time_complexity:[O(n+k)];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Блочная сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Bucket-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Блочная сортировка - это алгоритм сортировки, который распределяет элементы входной коллекции по нескольким блокам]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Bucket sort is a sorting algorithm that distributes the elements of an input collection across multiple buckets]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

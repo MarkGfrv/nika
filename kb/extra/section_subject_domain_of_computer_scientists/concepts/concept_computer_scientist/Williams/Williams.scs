@@ -1,0 +1,13 @@
+Williams
+=> nrel_main_idtf:
+   [Джон Уилльямс] (* <- lang_ru;; *);
+   [John William Joseph Williams] (* <- lang_en;; *);
+<=nrel_author: concept_heap_sort;
+=>nrel_birth_year: [1930];
+=>nrel_death_year: [2012];
+=>nrel_place_of_birth: Wiltshire
+   (*
+      => nrel_main_idtf: 
+      [Уилтшир, Англия] (* <- lang_ru;; *);
+      [Wiltshire, England] (* <- lang_en;; *);;
+   *);;

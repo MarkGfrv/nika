@@ -1,0 +1,31 @@
+concept_sorting_algorithm
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Алгоритм сортировки] (* <- lang_ru;; *);
+   [Sorting algorithm] (* <- lang_en;; *);
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Алгоритм сортировки)] (* <- lang_ru;; *);
+      [Def. (Sorting algorithm)] (* <- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки - это алгоритм, занимающийся процессом перегруппировки элементов коллекции в порядке, удовлетворяющем заданному критерию]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Sorting algoritm is an algoritm, which is doing process of rearranging elements of a collection into an order that satisfies a specified criterion]
+         (* <- lang_en;; *);;
+      *);;
+   *);
+<= nrel_subdividing:
+   {
+   concept_comparison_based_sorting_algorithm;
+   concept_non_comparison_based_sorting_algorithm
+   };;

@@ -1,0 +1,53 @@
+nrel_original_source
+<- sc_node_non_role_relation;
+=> nrel_main_idtf:
+	[первоисточник*]
+	(* <- lang_ru;; *);
+	[original source*]
+	(* <- lang_en;; *);
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_first_domain: concept_sorting_algorithm;
+=> nrel_second_domain: sc_link;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			concept_sorting_algorithm;
+			sc_link
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+    	[Опр. (первоисточник*)]
+    	(* <- lang_ru;; *);
+    	[Def. (original source*)]
+    	(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Первоисточник* - труд специалиста по компьютерным технологиям, где впервые упоминается определенный алгоритм.]
+			(* <- lang_ru;;	*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+	  		[Original source* - the work of a computer technology specialist, where a certain algorithm is mentioned for the first time.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+        {
+            binary_relation;
+            concept_sorting_algoritm;
+            concept_computer_scientist
+        };;
+    *);;

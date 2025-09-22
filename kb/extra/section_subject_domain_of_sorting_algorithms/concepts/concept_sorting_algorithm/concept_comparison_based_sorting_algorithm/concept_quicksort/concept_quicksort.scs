@@ -1,0 +1,30 @@
+concept_quicksort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Быстрая сортировка] (* <- lang_ru;; *);
+   [Quicksort] (* <- lang_en;; *);
+=>nrel_creation_date:[1959];
+=>nrel_time_complexity:[O(nlog(n))];
+=>nrel_original_source: [Algoritm 64: Quicksort];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Быстрая сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Quicksort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки, который разделяет коллекцию на элементы больше и меньше опорного. Процесс рекурсивно повторяется, пока коллекция не будет отсортирована]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [A sorting algorithm that divides a collection into elements greater than and less than a pivot. Process is repeated recursively until the collection is sorted]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

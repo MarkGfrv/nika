@@ -1,0 +1,13 @@
+Knuth
+=> nrel_main_idtf:
+   [Дональд Эрвин Кнут] (* <- lang_ru;; *);
+   [Donald Knuth] (* <- lang_en;; *);
+<=nrel_author: concept_coctail_sort;
+<=nrel_author: concept_selection_sort;
+=>nrel_birth_year: [1938];
+=>nrel_place_of_birth: California
+   (*
+      => nrel_main_idtf: 
+      [Калифорния, США] (* <- lang_ru;; *);
+      [California, USA] (* <- lang_en;; *);;
+   *);;

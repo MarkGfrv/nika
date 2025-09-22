@@ -1,0 +1,24 @@
+nrel_death_year
+<- sc_node_non_role_relation;
+=> nrel_main_idtf:
+	[год смерти*]
+	(* <- lang_ru;; *);
+	[death year*]
+	(* <- lang_en;; *);
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_first_domain: concept_computer_scientist;
+=> nrel_second_domain: sc_link;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			concept_computer_scientist;
+			sc_link
+		};;
+	*);;

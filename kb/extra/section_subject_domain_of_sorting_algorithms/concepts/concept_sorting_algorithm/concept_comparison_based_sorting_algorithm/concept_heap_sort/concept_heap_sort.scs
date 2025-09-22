@@ -1,0 +1,30 @@
+concept_heap_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Пирамидальная сортировка] (* <- lang_ru;; *);
+   [Heap-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1964];
+=>nrel_time_complexity:[O(nlog(n))];
+=>nrel_original_source: [Algorithm 232: Heapsort];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Пирамидальная сортировка)]
+      (* <- lang_ru;; *);
+      [Def. (Heap-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Пирамидальная сортировка - это метод сортировки сравнением, использующий такую структуру данных, как двоичная куча]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [Heapsort is a comparison sorting method that uses a binary heap data structure.]
+         (* <- lang_en;; *);;
+      *);;
+   *);;

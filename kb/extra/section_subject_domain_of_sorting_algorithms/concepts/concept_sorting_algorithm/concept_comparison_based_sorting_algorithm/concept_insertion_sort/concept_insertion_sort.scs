@@ -1,0 +1,32 @@
+concept_insertion_sort
+<- sc_node_class;
+=> nrel_main_idtf:
+   [Сортировка вставками] (* <- lang_ru;; *);
+   [Insertion-sort] (* <- lang_en;; *);
+=>nrel_creation_date:[1945];
+=>nrel_time_complexity:[O(n^2)];
+=>nrel_basis: concept_shell_sort;
+=>nrel_basis: concept_quicksort;
+=>nrel_original_source: [Theory and Techniques for the Design of Electronic Digital Computers];
+<- rrel_key_sc_element:
+   ...
+   (*
+   => nrel_main_idtf:
+      [Опр. (Сортировка вставками)]
+      (* <- lang_ru;; *);
+      [Def. (Insertion-sort)] (*<- lang_en;; *);;
+   <- definition;;
+   <= nrel_sc_text_translation:
+      ...
+      (*
+      -> rrel_example:
+         [Алгоритм сортировки, перебирающий элементы в неотсортированной части коллекции, которые вставляются в отсортированную часть на подходящюю позицию]
+         (* <- lang_ru;; *);;
+      *);
+      ...
+      (*
+      -> rrel_example:
+         [A sorting algorithm that iterates over elements in the unsorted portion of a collection, inserting them into the sorted portion at the appropriate position.]
+         (* <- lang_en;; *);;
+      *);;
+   *);;
